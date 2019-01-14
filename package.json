@@ -1,0 +1,22 @@
+{
+  "name": "angularjs-kanban-board",
+  "version": "1.0.0",
+  "description": "A simple kanban board to explore AngularJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/micahbales/angularjs-kanban-board.git"
+  },
+  "author": "Micah Bales",
+  "license": "+CAL (see LICENSE.md)",
+  "bugs": {
+    "url": "https://github.com/micahbales/angularjs-kanban-board/issues"
+  },
+  "homepage": "https://github.com/micahbales/angularjs-kanban-board#readme",
+  "dependencies": {
+    "angular": "^1.7.5"
+  }
+}
