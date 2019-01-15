@@ -9,10 +9,11 @@
     <body>
 
         <div ng-app="app" ng-controller="AppController as app">
-            <pre>{{ app | json }}</pre>
+            <board cards="app.cards"></board>
         </div>
 
         <script src="node_modules/angular/angular.js"></script>
         <script src="app.js"></script>
+        <script src="components/board/board.js"></script>
     </body>
 </html>
