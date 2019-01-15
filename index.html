@@ -1,11 +1,18 @@
 <!doctype html>
-<html lang="en" ng-app>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <title>AngularJS Kanban Board</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body ng-controller="AppController">
-        <div>Hello world!</div>
+
+    <body>
+
+        <div ng-app="app" ng-controller="AppController as app">
+            <pre>{{ app | json }}</pre>
+        </div>
+
+        <script src="node_modules/angular/angular.js"></script>
+        <script src="app.js"></script>
     </body>
 </html>
